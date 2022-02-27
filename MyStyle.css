@@ -3,6 +3,11 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+    background-color: blueviolet;
+}
+
 #SpecialP {
     color: orangered;
     background-color: black;
@@ -12,7 +17,7 @@
 .CenterClass {
     text-align: center;
     color: black;
-    background-color: white;
+    background-color: rgba(159, 223, 159, 0.75);
 }
 
 h1, h2 {
@@ -22,4 +27,9 @@ h1, h2 {
 p {
     color: rgb(50,150,200);
     background-color: #c08040;
+    border-style: double;
+    margin-left: 33%;
+    padding: 20px;
+    width: 100px;
+    box-sizing: border-box;
 }
